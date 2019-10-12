@@ -228,8 +228,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav" >
                 <a class="nav-item nav-link" href="pricing.html">Pricing <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="invoice-signing.html">Generate an Invoice</a>
-                <a class="nav-item nav-link" href="#">Track a Project</a>
+                <a class="nav-item nav-link" href="invoice_loggedin_user.html">Generate an Invoice</a>
+                <a class="nav-item nav-link" href="contact-support.html">Track a Project</a>
                 <a class="nav-item nav-link" href="signin.html">Sign in</a>
                 <a class="nav-item nav-link" href="signup.html">Sign up</a>
                 </div>
@@ -298,7 +298,7 @@
                             </ul>
     
                             <div class="price-button p-3">
-                                    <a href="/signup.html" class="btn btn-primary btn-block">Sign up for free</a>
+                                    <a href="/signup.html" class="btn btn-primary btn-block">Purchase</a>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
                             </ul>
     
                             <div class="price-button p-3">
-                                    <a href="/signup.html" class="btn btn-primary btn-block">Sign up for free</a>
+                                    <a href="/signup.html" class="btn btn-primary btn-block">Purchase</a>
                             </div>
                         </div>
                     </div>
@@ -344,51 +344,51 @@
                 <h4 id="enter-line">Enterprise ready tools</h4>
                 <h6>With dedicated support and quick and consistent delivery of new features, you can trust your process in our able hands</h6>
                 <br>
-                <button type="button" class="btn button" >Contact Sales</button>
+                <button type="button" class="btn button" onclick="contact-support.html">Contact Sales</button>
             </div>
         </article>
             <footer>
                 <div class="container">
-                <div class="row">
-                <div class="col-sm-2">
-                    
-                        <h6 id="lancer">Lan<span style="color: aqua">c</span>ers</span></h6>
-                        <a href="#" class="link">Pricing</a>
-                        <br>
-                        <a href="/signin.html" class="link">Sign in</a>
-                        <br>
-                        <a href="signup.html" class="link">Sign Up</a>
-                    
-        
+                    <div class="row">
+                        <div class="col-sm-2">
+
+                                <h6 id="lancer">Lan<span style="color: aqua">c</span>ers</h6>
+                                <a href="pricing.html" class="link">Pricing</a>
+                                <br>
+                                <a href="/signin.html" class="link">Sign in</a>
+                                <br>
+                                <a href="signup.html" class="link">Sign Up</a>
+
+
+                        </div>
+                        <div class="col-sm-2">
+
+                                <h6 >Useful links</h6>
+
+                                <a href="documents.html" class="link">Dashboard</a>
+                                <br>
+                                <a href="project.html" class="link">Projects</a>
+                                <br>
+                                <a href="Invoice-new-user.html" class="link">Invoices</a>
+                                <br>
+                                <a href="Invoice-new-user.html" class="link">Create a Project</a>
+
+                        </div>
+                        <div class="col-sm-4">
+
+                                <h6>Reach us</h6>
+                                <p> 52b Charity Lane, off Magboso Highway, Ikate,<br> London, Nigeria</p>                
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                        </div>
+                        <div class="col-sm-4" id="col4">
+                                <h6>Stay up to date</h6>
+                                <p>Get emails about our newest features and events <br> you can visit, we promise not to spam</p>
+                                <input type="text" placeholder="Email Address" id="email-input" style="margin-top: 10px">
+                                <button id="btn-sub" style="margin-top: 10px">Subscribe</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-2">
-                    
-                        <h6 >Useful links</h6>
-                        
-                        <a href="/signin.html" class="link">Dashboard</a>
-                        <br>
-                        <a href="/signin.html" class="link">Projects</a>
-                        <br>
-                        <a href="/signin.html" class="link">Invoices</a>
-                        <br>
-                        <a href="/signin.html" class="link">Create a Project</a></a>
-                    
-                </div>
-                <div class="col-sm-4">
-                    
-                        <h6>Reach us</h6>
-                        <p> 52b Charity Lane, off Magboso Highway, Ikate,<br> London, Nigeria</p>                
-                        <i class="fab fa-facebook-square fa-2x"></i>
-                        <i class="fab fa-twitter-square fa-2x"></i>
-                </div>
-                <div class="col-sm-4" id="col4">
-                        <h6>Stay up to date</h6>
-                        <p>Get emails about our newest features and events <br> you can visit, we promise not to spam</p>
-                        <input type="text" placeholder="Email Address" id="email-input">
-                        <button id="btn-sub">Subscribe</button>
-                </div>
-                </div>
-            </div>
             </footer>
         
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
